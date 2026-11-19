@@ -142,3 +142,58 @@ Domain-Aware Product Research 将领域知识与潜在的产品功能、交互�
 最终生成一个交互式、由研究证据支持的 **Research Explorer HTML**，帮助设计师系统地探索产品功能、发现未知问题，并在开始设计前做出更有依据的判断。
 
 **我们的目标不是告诉设计师应该做出什么产品，而是帮助他们在决定如何设计之前，发现自己还需要研究什么。**
+
+## 安装方法（Installation）
+
+Domain-Aware Product Research 采用开放的 [Agent Skills 规范](https://agentskills.io/specification)。
+
+只要你的 AI Agent 支持自定义 Agent Skills，就可以尝试安装和使用，例如 Codex、Claude Code 等。
+
+### 方式一：通过 AI Agent 安装
+
+1. 复制本项目的 GitHub 地址：
+
+   `https://github.com/Cindyzhan1/domain-aware-product-research-skill`
+
+2. 打开你使用的 AI Agent。
+3. 告诉 Agent：请按照它所支持的 Skill 安装方式，从上述 GitHub 仓库安装这个 Skill。
+4. 确认 `domain-aware-product-research` 已成功安装并可以调用。
+
+**注意：** 不同 Agent 的安装方法可能不同。有些 Agent 需要手动下载并放置 Skill 文件夹。
+
+### 方式二：手动安装
+
+1. 在 GitHub 项目首页点击 **Code → Download ZIP**。
+2. 解压下载的 ZIP 文件。
+3. 将解压后的 Skill 文件夹放到你的 AI Agent 支持的 Skills 目录中，并保留 `SKILL.md` 和 `assets/` 文件夹。
+4. 如果需要，重新启动或刷新 AI Agent。
+
+具体安装路径和方法，请参考 [Codex 官方文档](https://developers.openai.com/codex/skills) 或 [Claude Code 官方文档](https://code.claude.com/docs/en/skills)。
+
+## 如何使用（How to Use）
+
+安装完成后，可以尝试输入：
+
+> 请使用 domain-aware-product-research Skill，帮助我研究设计一个期货交易平台 Watchlist 所涉及的潜在功能、交互行为、业务规则、边界情况，以及现有产品的真实 UI 设计。
+
+Skill 会先引导你选择是否提供已有研究资料。如果 AI Agent 支持本地文件创建，它会进一步生成交互式的 **Research Explorer HTML**。
+
+## 可选集成（Optional Integrations）
+
+即使没有额外集成，Skill 也可以利用公开资料进行研究。
+
+如果你的 AI Agent 支持相应的 MCP 连接，还可以使用：
+
+- **Mobbin MCP** — 搜索真实产品的 UI 截图和交互模式。
+- **Figma / FigJam MCP** — 导入自己在 Figma 或 FigJam 中完成的竞品研究和设计标注。
+- **Miro MCP** — 导入可视化研究板。
+- **上传截图** — 直接提供自己收集的竞品界面作为研究资料。
+
+这些集成都不是必需的，需要用户根据自己的 Agent 环境和账户权限单独配置。
+
+## 使用限制（Limitations）
+
+- AI 生成的研究可能不完整或存在错误。重要结论应通过可靠资料和领域专家进一步核实。
+- Skill 发现的 Feature Candidates 是值得探索的设计方向，**不代表已经确认的产品需求**。
+- 第三方产品截图和私人研究资料可能受到版权或传播限制，公开分享前应确认使用权限。
+- 不同 AI Agent 支持的工具、MCP 集成及 HTML 生成功能可能有所差异。
