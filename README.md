@@ -76,7 +76,7 @@ For platform-specific guidance, see the [Codex documentation](https://developers
 
 Once installed, try this prompt:
 
-> Use the domain-aware-product-research Skill to help me explore the features, behaviours, business rules, edge cases, and real UI patterns involved in designing a futures trading watchlist.
+> Use the domain-aware-product-research Skill to help me explore the features, behaviours, business rules, edge cases, and real UI patterns involved in designing a XX feature in XX platform/product.
 
 The Skill will guide you through optional research inputs and generate an interactive Research Explorer HTML when your Agent supports local file creation.
 
@@ -174,7 +174,7 @@ Domain-Aware Product Research 采用开放的 [Agent Skills 规范](https://agen
 
 安装完成后，可以尝试输入：
 
-> 请使用 domain-aware-product-research Skill，帮助我研究设计一个期货交易平台 Watchlist 所涉及的潜在功能、交互行为、业务规则、边界情况，以及现有产品的真实 UI 设计。
+> 请使用 domain-aware-product-research Skill，帮助我研究设计一个XXX产品/平台的 XX功能所涉及的潜在功能、交互行为、业务规则、边界情况，以及现有产品的真实 UI 设计。
 
 Skill 会先引导你选择是否提供已有研究资料。如果 AI Agent 支持本地文件创建，它会进一步生成交互式的 **Research Explorer HTML**。
 
