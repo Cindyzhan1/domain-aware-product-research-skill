@@ -47,6 +47,57 @@ The result is an interactive, evidence-informed **Research Explorer HTML** desig
 
 **The goal isn't to tell designers exactly what to build. It's to help them discover what they need to investigate before deciding what to build.**
 
+## Installation
+
+Domain-Aware Product Research follows the open [Agent Skills specification](https://agentskills.io/specification).
+
+You can use it with AI agents that support custom Agent Skills, including Codex and Claude Code.
+
+### Option 1 — Install with your AI Agent
+
+1. Copy this repository URL:
+   `https://github.com/Cindyzhan1/domain-aware-product-research-skill`
+2. Open your AI Agent.
+3. Ask your Agent to install the Skill from this GitHub repository, using its supported Skill installation method.
+4. Confirm that the `domain-aware-product-research` Skill is available.
+
+**Note:** Installation methods vary by Agent. Some agents may require you to download and install the Skill folder manually.
+
+### Option 2 — Manual installation
+
+1. Download this repository using **Code → Download ZIP**.
+2. Extract the ZIP file.
+3. Place the extracted Skill folder in your Agent's supported Skills directory, preserving `SKILL.md` and the `assets/` folder.
+4. Restart or refresh your Agent if necessary.
+
+For platform-specific guidance, see the [Codex documentation](https://developers.openai.com/codex/skills) or [Claude Code documentation](https://code.claude.com/docs/en/skills).
+
+## How to Use
+
+Once installed, try this prompt:
+
+> Use the domain-aware-product-research Skill to help me explore the features, behaviours, business rules, edge cases, and real UI patterns involved in designing a futures trading watchlist.
+
+The Skill will guide you through optional research inputs and generate an interactive Research Explorer HTML when your Agent supports local file creation.
+
+## Optional Integrations
+
+The Skill can work with public research sources alone. Additional integrations may enrich the research:
+
+- **Mobbin MCP** — Discover existing product UI patterns and screenshots.
+- **Figma / FigJam MCP** — Import your own annotated competitor research.
+- **Miro MCP** — Incorporate visual research boards.
+- **Screenshot uploads** — Contribute your own UI references.
+
+These integrations are optional and must be configured in your own AI Agent environment.
+
+## Limitations
+
+- AI-generated research may be incomplete or inaccurate. Validate important findings against reliable sources and domain experts.
+- Feature candidates are research opportunities, not confirmed product requirements.
+- Third-party and private screenshots may have redistribution restrictions.
+- Available integrations and output capabilities vary between AI Agents.
+
 ---
 
 # 简体中文
