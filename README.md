@@ -148,6 +148,11 @@ Domain-Aware Product Research 将领域知识与潜在的产品功能、交互�
 
 **我们的目标不是告诉设计师应该做出什么产品，而是帮助他们在决定如何设计之前，发现自己还需要研究什么。**
 
+## 效果展示
+<img width="1292" height="941" alt="截屏2026-11-20 20 41 42" src="https://github.com/user-attachments/assets/58dbadb7-ebca-40fa-97ce-5bb49e1ce904" />
+<img width="1189" height="964" alt="截屏2026-11-20 20 42 01" src="https://github.com/user-attachments/assets/38ce658b-3786-46a0-b8be-209652dce731" />
+
+
 ## 安装方法（Installation）
 
 Domain-Aware Product Research 采用开放的 [Agent Skills 规范](https://agentskills.io/specification)。
