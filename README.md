@@ -47,6 +47,11 @@ The result is an interactive, evidence-informed **Research Explorer HTML** desig
 
 **The goal isn't to tell designers exactly what to build. It's to help them discover what they need to investigate before deciding what to build.**
 
+## Demo
+<img width="1409" height="960" alt="截屏2026-11-20 20 28 57" src="https://github.com/user-attachments/assets/ccbe2bf4-25bd-43dc-a4e9-5b3e451512dc" />
+<img width="1189" height="968" alt="截屏2026-11-20 20 29 44" src="https://github.com/user-attachments/assets/de68d0b5-bf1a-4d09-a1e5-e10b5e736d57" />
+
+
 ## Installation
 
 Domain-Aware Product Research follows the open [Agent Skills specification](https://agentskills.io/specification).
